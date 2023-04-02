@@ -1,0 +1,46 @@
+.navContainer {
+  width: 100%;
+  height: 40px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  position: absolute;
+  left: 20%;
+  font-weight: 500;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navButton {
+  margin-right: 20%;
+  font-weight: 500;
+}
+.home {
+  color: rgb(205, 146, 50);
+}
+.shop {
+  color: black;
+}
+.cart {
+  color: black;
+}
+.login {
+  color: black;
+}
+.icon {
+  opacity: 0.5;
+  color: black;
+}
+.boutique {
+  left: 48%;
+  position: absolute;
+  color: black;
+}
+.navButton {
+  right: 0%;
+  position: absolute;
+  color: black;
+}

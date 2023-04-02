@@ -1,0 +1,37 @@
+.popup {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  top: 100px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  margin: auto;
+  text-align: center;
+  z-index: 20;
+}
+.popup_img {
+  width: 30%;
+  position: absolute;
+  margin-left: 15%;
+  text-align: center;
+  margin-top: 10%;
+  background: white;
+  height: 60%;
+}
+.popup_inner {
+  width: 30%;
+  position: absolute;
+  margin-left: 45%;
+  text-align: center;
+  margin-top: 10%;
+  background-color: white;
+  height: 60%;
+}
+.close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+}

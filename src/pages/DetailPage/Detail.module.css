@@ -1,0 +1,141 @@
+.products {
+  position: relative;
+  display: block;
+  flex-direction: column;
+  padding: 20px;
+  height: 900px;
+}
+
+.product {
+  margin-left: 20%;
+  max-width: 60%;
+  display: flex;
+  justify-content: space-between;
+  gap: 1%;
+}
+.image {
+  width: 100%;
+}
+.titleh5 {
+  text-align: center;
+  width: 100%;
+  font-size: 120%;
+  z-index: 3;
+}
+.titleh {
+  font-size: 120%;
+  text-align: left;
+}
+.titlep {
+  font-size: 60%;
+  text-align: left;
+}
+.listpopup {
+  position: relative;
+  margin-top: -30%;
+  width: 100%;
+  height: auto;
+  right: 15px;
+  background-color: red;
+  z-index: 100;
+  margin-bottom: 30%;
+}
+.popup {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.imagesmall {
+  background-color: aqua;
+  width: 15%;
+}
+.imagebig {
+  width: 35%;
+  background-color: red;
+  display: flex;
+  justify-content: space-between;
+}
+.title {
+  margin-right: 0%;
+  max-width: 50%;
+  height: auto;
+
+  display: flex;
+  flex-direction: column;
+}
+.add {
+  font-size: 100%;
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+}
+.add h1 {
+  background-color: rgb(89, 83, 83);
+  font-size: 100%;
+  cursor: pointer;
+}
+.add h2 {
+  font-size: 100%;
+  width: 50%;
+}
+.category {
+  display: flex;
+  flex-direction: row;
+}
+.category p {
+  font-size: 50%;
+}
+.description {
+  margin-left: 20%;
+
+  position: relative;
+  width: 40%;
+
+  word-wrap: break-word;
+}
+.description p {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  white-space: pre-wrap;
+}
+.rld {
+  width: 30%;
+  position: fixed;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+
+  margin-left: 60%;
+  bottom: 20px;
+}
+.rld div {
+  display: flex;
+  justify-content: space-between;
+}
+.rela {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.rela p {
+  font-size: 12px;
+  font-weight: 500;
+}
+.rela img {
+  margin-left: 50px;
+  width: 100px;
+  height: 100px;
+}
+.rela h1 {
+  font-size: 12px;
+  font-weight: 100;
+  color: rgb(192, 163, 163);
+}

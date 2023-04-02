@@ -1,0 +1,33 @@
+.fLists {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+  background-color: black;
+}
+
+.fList {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.fListItem {
+  margin-bottom: 10px;
+  color: white;
+  cursor: pointer;
+  font-size: 80%;
+  opacity: 0.5;
+}
+.fListItembig {
+  margin-bottom: 10px;
+  color: white;
+  cursor: pointer;
+}
+.left {
+  margin-left: 20%;
+}
+.right {
+  margin-right: 20%;
+}

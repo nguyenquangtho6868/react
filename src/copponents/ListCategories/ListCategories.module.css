@@ -1,0 +1,34 @@
+.catogories {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  width: 60%;
+  margin-left: 20%;
+}
+.above {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  gap: 2%;
+}
+.below {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  gap: 2%;
+}
+.imgabove {
+  width: 49%;
+  height: auto;
+  opacity: 0.8;
+}
+.imgabove:hover {
+  opacity: 1.2;
+}
+.imgbelow {
+  width: 32%;
+  opacity: 0.8;
+}
+.imgbelow:hover {
+  opacity: 1.2;
+}

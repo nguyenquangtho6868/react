@@ -1,0 +1,58 @@
+.banner {
+  width: 60%;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 20%;
+}
+.content {
+  position: relative;
+  width: 30%;
+  margin-left: 20%;
+  background-color: rgb(236, 216, 216);
+}
+.image {
+  width: 100%;
+  height: auto;
+}
+.title {
+  margin-left: 2%;
+  width: 50%;
+  position: absolute;
+  left: 30px;
+  top: 15%;
+  color: rgb(48, 46, 46);
+  display: flex;
+  flex-direction: column;
+  z-index: 2;
+  text-align: center;
+  font-size: 15px;
+}
+.saleoff {
+  margin-left: 3%;
+  width: 50%;
+  position: absolute;
+  left: 5%;
+  top: 22%;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  z-index: 2;
+  text-align: center;
+  font-size: 30px;
+}
+.button {
+  width: 25%;
+  position: absolute;
+  left: 19%;
+  top: 40%;
+  color: rgb(48, 46, 46);
+
+  z-index: 2;
+  text-align: center;
+  font-size: 15px;
+}
+.button > button {
+  color: aliceblue;
+  background-color: rgb(53, 51, 51);
+}

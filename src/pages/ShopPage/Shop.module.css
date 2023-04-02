@@ -1,0 +1,65 @@
+.shop {
+  width: 60%;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  margin-left: 20%;
+}
+.categories {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(256, 256, 256);
+  width: 15%;
+}
+.items {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.itemapple {
+  margin-left: 0;
+  color: white;
+  background-color: black;
+  text-align: left;
+}
+.itemiphone {
+  margin-left: 0;
+  color: black;
+  background-color: whitesmoke;
+  text-align: left;
+}
+.itemwireless {
+  margin-left: 0;
+  color: black;
+  background-color: whitesmoke;
+  text-align: left;
+}
+.itemorther {
+  margin-left: 0;
+  color: black;
+  background-color: whitesmoke;
+  text-align: left;
+}
+.productlist {
+  width: 45%;
+}
+.navbar {
+  z-index: 5;
+  position: relative;
+  top: 0px;
+  width: 60%;
+  margin-left: 20%;
+  height: 180px;
+  background-color: rgb(241, 241, 240);
+  display: flex;
+  justify-content: space-between;
+}
+.navbar h1 {
+  margin-top: 50px;
+  margin-left: 30px;
+}
+.navbar h6 {
+  margin-top: 60px;
+  margin-right: 30px;
+  color: rgb(161, 170, 178);
+}
